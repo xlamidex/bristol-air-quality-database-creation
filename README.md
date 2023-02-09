@@ -14,7 +14,16 @@ I decided to work with data ranging from Jan 1st 2010 to October 19th 2022. I ha
 
 The notebook script that I used to do my data cleaning can be found here.
 
-### Methods
+
+### Process
+As this is a database implementation project the next step involved creating an entity diagram to identify the entities, attributes and relationships. I used the SQL Workbench to do this. The entity diagram for the air pollution dataset I created is below.
+logo: "/images/pollution.png?raw=true"
+
+I then went on to use the foward engineerng feature on the workbench to generate the sql script to create the tables on the entity diagram. I then went on to the python aspect of the project. I wrote a python script that would connect to phpmyadmin, create and then populate the database.
+The script can be found here.
+
+To test my database I wrote some queries 
+
 
 ### Results
 
