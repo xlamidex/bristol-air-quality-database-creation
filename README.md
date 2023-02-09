@@ -17,14 +17,18 @@ The notebook script that I used to do my data cleaning can be found here.
 
 ### Process
 As this is a database implementation project the next step involved creating an entity diagram to identify the entities, attributes and relationships. I used the SQL Workbench to do this. The entity diagram for the air pollution dataset I created is below.
-logo: "/images/pollution.png?raw=true"
+erd: "/images/pollution.png?raw=true"
 
 I then went on to use the foward engineerng feature on the workbench to generate the sql script to create the tables on the entity diagram. I then went on to the python aspect of the project. I wrote a python script that would connect to phpmyadmin, create and then populate the database.
 The script can be found here.
 
-To test my database I wrote some queries 
+To test my database I wrote some queries.
 
+### NoSQL Database
+After going through the diffent subsets of NoSQL databases, I decided to go with a document database. I went with this option because it was using a JSON format which I was easily able to understand. The fact that it also uses key - value pairs wich gave me the familiarity of a python dictionary made me feel more at home with the database. Document databases are great for a number of applications but the one that stood out to me was that it was good for handling and extracting real time data. The air pollution dataset is a real time data and so I felt I was making the right decision. I decided to use Mongo DB Atlas UI for this task.
 
-### Results
+I used the MongoDB compass to import my data and then used the MongoDB shell to run queries on it 
+shell: "/images/shell_method.png?raw=true"
+
 
 ### Conclusion
