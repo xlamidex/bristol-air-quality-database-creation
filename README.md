@@ -12,8 +12,7 @@ The air quality data set used was gotten from the UK air quality website. I cons
 
 I decided to work with data ranging from Jan 1st 2010 to October 19th 2022. I had a list of the stations and their matching station Id so, the next step was to do some data cleaning to ensure that there were no null rows or incorrect station details that could affect the quality of the data. 
 
-The notebook script that I used to do my data cleaning can be found here.
-
+![The notebook script that I used to do my data cleaning can be found here](/scripts/air_data_cleaning.ipynb)
 
 ### Process
 As this is a database implementation project the next step involved creating an entity diagram to identify the entities, attributes and relationships. I used the SQL Workbench to do this. The entity diagram for the air pollution dataset I created is below.
