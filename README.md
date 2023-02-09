@@ -17,7 +17,8 @@ The notebook script that I used to do my data cleaning can be found here.
 
 ### Process
 As this is a database implementation project the next step involved creating an entity diagram to identify the entities, attributes and relationships. I used the SQL Workbench to do this. The entity diagram for the air pollution dataset I created is below.
-erd: "/images/pollution.png?raw=true"
+
+![erd](/images/pollution.png)
 
 I then went on to use the foward engineerng feature on the workbench to generate the sql script to create the tables on the entity diagram. I then went on to the python aspect of the project. I wrote a python script that would connect to phpmyadmin, create and then populate the database.
 The script can be found here.
@@ -29,7 +30,8 @@ After going through the diffent subsets of NoSQL databases, I decided to go with
 
 I used the MongoDB compass to import my data and then used the MongoDB shell to run queries on it 
 
-"/images/shell_method.PNG?raw=true"
+![shell](/images/shell_method.PNG)
+
 
 
 ### Conclusion
